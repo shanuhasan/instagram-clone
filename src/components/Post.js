@@ -73,8 +73,6 @@ function Post({ username, user, postId, imageUrl, caption }) {
                     <button className="posts__button" disabled={!comment} type="submit" onClick={postComment}>Post</button>
                 </form>
             )}
-
-
         </div>
     )
 }
